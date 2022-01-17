@@ -1,0 +1,371 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J7
+U 1 1 61E50CB0
+P 4950 3700
+F 0 "J7" H 4950 5181 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 4950 5090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4950 3700 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2400 4850 2400
+Wire Wire Line
+	5050 2400 5150 2400
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 61E5AB53
+P 4250 2250
+F 0 "J3" H 4142 1925 50  0000 C CNN
+F 1 "5V" H 4142 2016 50  0000 C CNN
+F 2 "PCB:WJ250B-3pin" H 4250 2250 50  0001 C CNN
+F 3 "~" H 4250 2250 50  0001 C CNN
+	1    4250 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 61E5D0FF
+P 4250 1750
+F 0 "J2" H 4142 1425 50  0000 C CNN
+F 1 "5V" H 4142 1516 50  0000 C CNN
+F 2 "PCB:WJ250B-3pin" H 4250 1750 50  0001 C CNN
+F 3 "~" H 4250 1750 50  0001 C CNN
+	1    4250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J10
+U 1 1 61E5DC85
+P 5650 2250
+F 0 "J10" H 5678 2276 50  0000 L CNN
+F 1 "3V3" H 5678 2185 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 5650 2250 50  0001 C CNN
+F 3 "~" H 5650 2250 50  0001 C CNN
+	1    5650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J9
+U 1 1 61E5F3AC
+P 5650 1750
+F 0 "J9" H 5678 1776 50  0000 L CNN
+F 1 "3V3" H 5678 1685 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 5650 1750 50  0001 C CNN
+F 3 "~" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 61E606A1
+P 4300 5750
+F 0 "J4" V 4146 5898 50  0000 L CNN
+F 1 "GND" V 4237 5898 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 4300 5750 50  0001 C CNN
+F 3 "~" H 4300 5750 50  0001 C CNN
+	1    4300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 61E64F1A
+P 4600 5750
+F 0 "J5" V 4446 5898 50  0000 L CNN
+F 1 "GND" V 4537 5898 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 4600 5750 50  0001 C CNN
+F 3 "~" H 4600 5750 50  0001 C CNN
+	1    4600 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 61E658A2
+P 4900 5750
+F 0 "J6" V 4746 5898 50  0000 L CNN
+F 1 "GND" V 4837 5898 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 4900 5750 50  0001 C CNN
+F 3 "~" H 4900 5750 50  0001 C CNN
+	1    4900 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J8
+U 1 1 61E65CA3
+P 5200 5750
+F 0 "J8" V 5046 5898 50  0000 L CNN
+F 1 "GND" V 5137 5898 50  0000 L CNN
+F 2 "PCB:WJ250B-3pin" H 5200 5750 50  0001 C CNN
+F 3 "~" H 5200 5750 50  0001 C CNN
+	1    5200 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 5000 5150 5000
+Wire Wire Line
+	5050 5000 5150 5000
+Connection ~ 5150 5000
+Wire Wire Line
+	5050 5000 4950 5000
+Connection ~ 5050 5000
+Wire Wire Line
+	4950 5000 4900 5000
+Connection ~ 4950 5000
+Wire Wire Line
+	4850 5000 4750 5000
+Connection ~ 4850 5000
+Wire Wire Line
+	4750 5000 4650 5000
+Connection ~ 4750 5000
+Wire Wire Line
+	4550 5000 4650 5000
+Connection ~ 4650 5000
+Wire Wire Line
+	4900 5000 4900 5550
+Connection ~ 4900 5000
+Wire Wire Line
+	4900 5000 4850 5000
+Wire Wire Line
+	4900 5550 5000 5550
+Connection ~ 4900 5550
+Wire Wire Line
+	5000 5550 5100 5550
+Connection ~ 5000 5550
+Wire Wire Line
+	5100 5550 5200 5550
+Connection ~ 5100 5550
+Connection ~ 5200 5550
+Wire Wire Line
+	5200 5550 5300 5550
+Wire Wire Line
+	4900 5550 4800 5550
+Connection ~ 4300 5550
+Wire Wire Line
+	4300 5550 4200 5550
+Connection ~ 4400 5550
+Wire Wire Line
+	4400 5550 4300 5550
+Connection ~ 4500 5550
+Wire Wire Line
+	4500 5550 4400 5550
+Connection ~ 4600 5550
+Wire Wire Line
+	4600 5550 4500 5550
+Connection ~ 4700 5550
+Wire Wire Line
+	4700 5550 4600 5550
+Connection ~ 4800 5550
+Wire Wire Line
+	4800 5550 4700 5550
+Wire Wire Line
+	4450 1650 4450 1750
+Connection ~ 4450 1750
+Wire Wire Line
+	4450 1750 4450 1850
+Connection ~ 4450 1850
+Wire Wire Line
+	4450 1850 4450 2150
+Connection ~ 4450 2150
+Wire Wire Line
+	4450 2150 4450 2250
+Connection ~ 4450 2250
+Wire Wire Line
+	4450 2250 4450 2350
+Wire Wire Line
+	4450 2350 4750 2350
+Wire Wire Line
+	4750 2350 4750 2400
+Connection ~ 4450 2350
+Connection ~ 4750 2400
+Wire Wire Line
+	5150 2400 5150 2350
+Wire Wire Line
+	5150 2350 5450 2350
+Connection ~ 5150 2400
+Wire Wire Line
+	5450 1650 5450 1750
+Connection ~ 5450 2350
+Connection ~ 5450 1750
+Wire Wire Line
+	5450 1750 5450 1850
+Connection ~ 5450 1850
+Wire Wire Line
+	5450 1850 5450 2150
+Connection ~ 5450 2150
+Wire Wire Line
+	5450 2150 5450 2250
+Connection ~ 5450 2250
+Wire Wire Line
+	5450 2250 5450 2350
+$Comp
+L Connector:Conn_01x02_Female J13
+U 1 1 61E786A9
+P 6400 4400
+F 0 "J13" H 6428 4376 50  0000 L CNN
+F 1 "PWM" H 6428 4285 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 6400 4400 50  0001 C CNN
+F 3 "~" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 61E79F79
+P 3700 3400
+F 0 "J1" H 3728 3376 50  0000 L CNN
+F 1 "PWM" H 3728 3285 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3300 3900 3300
+Wire Wire Line
+	3900 3400 4150 3400
+Wire Wire Line
+	4150 3400 4150 3500
+Wire Wire Line
+	5750 4400 6200 4400
+Wire Wire Line
+	5750 4500 6200 4500
+Connection ~ 5950 3200
+Connection ~ 7050 3350
+Wire Wire Line
+	5950 3350 5950 3200
+Wire Wire Line
+	7050 3350 5950 3350
+Wire Wire Line
+	7050 3350 7050 3250
+Wire Wire Line
+	8200 3350 7050 3350
+Wire Wire Line
+	8200 3250 8200 3350
+Connection ~ 7050 3150
+Wire Wire Line
+	8200 3050 8200 3150
+Wire Wire Line
+	7050 3050 8200 3050
+Wire Wire Line
+	7050 3150 7050 3050
+Connection ~ 5950 3100
+Wire Wire Line
+	5950 3150 7050 3150
+Wire Wire Line
+	5950 3100 5950 3150
+Connection ~ 7050 3000
+Wire Wire Line
+	8200 3000 8200 2900
+Wire Wire Line
+	7050 3000 8200 3000
+Wire Wire Line
+	7050 3000 7050 2900
+Wire Wire Line
+	6000 3000 7050 3000
+Wire Wire Line
+	6000 2900 6000 3000
+Connection ~ 7050 2700
+Wire Wire Line
+	8200 2700 8200 2800
+Wire Wire Line
+	7050 2700 8200 2700
+Wire Wire Line
+	5950 2800 6000 2800
+Connection ~ 5950 2800
+Wire Wire Line
+	5750 2800 5950 2800
+Wire Wire Line
+	7050 2700 7050 2800
+Wire Wire Line
+	6000 2700 7050 2700
+Wire Wire Line
+	6000 2800 6000 2700
+$Comp
+L Connector:Conn_01x02_Female J16
+U 1 1 61E6E4E2
+P 8400 2800
+F 0 "J16" H 8428 2776 50  0000 L CNN
+F 1 "I2C 1.3" H 8428 2685 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 8400 2800 50  0001 C CNN
+F 3 "~" H 8400 2800 50  0001 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J17
+U 1 1 61E6DC93
+P 8400 3150
+F 0 "J17" H 8428 3126 50  0000 L CNN
+F 1 "I2C 2.3" H 8428 3035 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 8400 3150 50  0001 C CNN
+F 3 "~" H 8400 3150 50  0001 C CNN
+	1    8400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J15
+U 1 1 61E6D452
+P 7250 3150
+F 0 "J15" H 7278 3126 50  0000 L CNN
+F 1 "I2C 2.2" H 7278 3035 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 7250 3150 50  0001 C CNN
+F 3 "~" H 7250 3150 50  0001 C CNN
+	1    7250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J14
+U 1 1 61E6C5FA
+P 7250 2800
+F 0 "J14" H 7278 2776 50  0000 L CNN
+F 1 "I2C 1.2" H 7278 2685 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 7250 2800 50  0001 C CNN
+F 3 "~" H 7250 2800 50  0001 C CNN
+	1    7250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2900 5950 2900
+$Comp
+L Connector:Conn_01x02_Female J11
+U 1 1 61E54AFC
+P 6150 2800
+F 0 "J11" H 6178 2776 50  0000 L CNN
+F 1 "I2C 1.1" H 6178 2685 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 6150 2800 50  0001 C CNN
+F 3 "~" H 6150 2800 50  0001 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3200 5750 3200
+Wire Wire Line
+	5750 3100 5950 3100
+$Comp
+L Connector:Conn_01x02_Female J12
+U 1 1 61E5218A
+P 6150 3100
+F 0 "J12" H 6178 3076 50  0000 L CNN
+F 1 "I2C 2.1" H 6178 2985 50  0000 L CNN
+F 2 "PCB:WJ250B-2pin" H 6150 3100 50  0001 C CNN
+F 3 "~" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
